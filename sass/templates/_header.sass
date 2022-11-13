@@ -1,0 +1,48 @@
+.header
+    max-width: 1790px
+    width: 100%
+    padding-top: 35px
+    margin: auto
+    &__block
+        display: flex
+        align-items: center
+        justify-content: center
+    &__logo
+        margin-right: 570px
+    &__nav
+        margin-right: 132px
+        &--item
+            font-family: 'Cormorant Infant'
+            font-style: normal
+            font-weight: 700
+            font-size: 16px
+            line-height: 19px
+            text-transform: uppercase
+            color: $mainGreen
+            text-decoration: none
+            margin-right: 86px
+            &:last-child
+                margin-right: 0
+    &__phone
+        margin-right: 80px
+        font-family: 'Raleway'
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 26px
+        color: $mainGreen
+        font-feature-settings: 'pnum' on, 'lnum' on
+        &--img
+            max-width: 70px
+            width: 100%
+    
+.first__item
+    position: relative
+    &::before
+        position: absolute
+        content: ''
+        background: url('../img/Vector.svg') no-repeat center
+        left: -15%
+        top: 30%
+        width: 8px
+        height: 8px

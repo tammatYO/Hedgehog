@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  max-width: 1790px;
+  width: 100%;
+  padding-top: 35px;
+  margin: auto;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo {
+  margin-right: 570px;
+}
+
+.header__nav {
+  margin-right: 132px;
+}
+
+.header__nav--item {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #195557;
+  text-decoration: none;
+  margin-right: 86px;
+}
+
+.header__nav--item:last-child {
+  margin-right: 0;
+}
+
+.header__phone {
+  margin-right: 80px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #195557;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.header__phone--img {
+  max-width: 70px;
+  width: 100%;
+}
+
+.first__item {
+  position: relative;
+}
+
+.first__item::before {
+  position: absolute;
+  content: '';
+  background: url("../img/Vector.svg") no-repeat center;
+  left: -15%;
+  top: 30%;
+  width: 8px;
+  height: 8px;
+}
+
+.hero {
+  background: url(../img/Subtract.jpg) no-repeat center;
+  padding-top: 290px;
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
+
+.hero__block {
+  text-align: center;
+}
+
+.hero__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #70908B;
+  margin-top: 100px;
+  margin-bottom: 55px;
+}
+
+.hero__button {
+  padding: 26px 116px;
+  background: #70908B;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.hero__secondBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background: url("../img/bg_ezhi.png") no-repeat center;
+  margin-top: 80px;
+}
+
+.hero__items {
+  display: flex;
+  margin: auto;
+  margin-top: 125px;
+  position: relative;
+}
+
+.hero__item {
+  margin-right: 155px;
+  text-align: center;
+}
+
+.hero__item:last-child {
+  margin-right: 0;
+}
+
+.hero__item--title {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #195557;
+  margin-bottom: 8px;
+}
+
+.hero__item--text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #195557;
+  max-width: 180px;
+  width: 100%;
+  margin: auto;
+}
+
+.hero__item1 {
+  margin-top: 25px;
+}
+
+.cards {
+  margin-bottom: 90px;
+}
+
+.cards__block {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: url("../img/bg-yellow.png") no-repeat center;
+  max-width: 570px;
+  width: 100%;
+  height: 400px;
+  margin-right: 44px;
+}
+
+.card:last-child {
+  background: url("../img/bg-green.png") no-repeat center;
+  margin-right: 0;
+}
+
+.card__sale {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  padding: 6px;
+  background: #70908B;
+  color: #FFF;
+  margin-left: 60px;
+}
+
+.card__info {
+  display: flex;
+  padding: 54px 0px 33px 59px;
+}
+
+.card__title {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #195557;
+}
+
+.card__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000;
+}
+
+.card__price {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__icon {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 874px;
+  top: 1119px;
+}
+
+.card__icon2 {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  left: 1490px;
+  top: 1119px;
+}
+
+.card__plus {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 900px;
+  top: 1455px;
+}
+
+.card__plus2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1515px;
+  top: 1455px;
+}
+
+.price__old {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  color: #C2CCCA;
+}
+
+.price__new {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #195557;
+}
+
+.request {
+  padding-bottom: 3.75rem;
+}
+
+.request .form {
+  padding: 2.5rem 3.125rem 5rem;
+  background: #EAEEEF;
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 5.9375rem;
+}
+
+.request .form__title {
+  font-weight: bold;
+  font-size: 2.8125rem;
+  color: #195557;
+  line-height: 3.375rem;
+  margin-bottom: 1.875rem;
+}
+
+.request .form-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.6875rem;
+}
+
+.request .form-top-buttons {
+  display: flex;
+}
+
+.request .form-top-buttons__item {
+  padding: 1rem 1.6875rem;
+  background: #fff;
+  border: 2px solid #70908B;
+  margin-right: 0.875rem;
+  color: #70908B;
+  transition: all .3s;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.request .form-top-buttons__item:last-of-type {
+  margin-right: 0;
+}
+
+.request .form-top-buttons__item:hover {
+  background: #70908B;
+  color: #fff;
+}
+
+.request .form-top-radios {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 26.4375rem;
+}
+
+.request .form-radios-group:nth-of-type(1) {
+  margin-right: 3.3125rem;
+  margin-bottom: 0.875rem;
+}
+
+.request .form-radios-group:nth-of-type(3) {
+  margin-right: 3.0125rem;
+}
+
+.request .form-radios-group__label {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #70908B;
+}
+
+.request .form-bottom .input {
+  text-indent: 20px;
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.request .form-bottom-group {
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+
+.request .form-bottom__input {
+  margin-right: 1.25rem;
+  width: 100%;
+  height: 3.875rem;
+}
+
+.request .form-bottom__input::placeholder {
+  color: #195557;
+}
+
+.request .form-bottom__input:last-of-type {
+  margin-right: 0;
+}
+
+.request .form-bottom__textarea {
+  resize: none;
+  padding-top: 21px;
+  width: 100%;
+  height: 6.75rem;
+}
+
+.request .form-bottom__textarea::placeholder {
+  color: #195557;
+}
+
+.request .form-button-content {
+  display: flex;
+  justify-content: center;
+}
+
+.request .form__button {
+  padding: 1.6875rem 7.1875rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #fff;
+  position: absolute;
+  bottom: -35px;
+  background: #70908B;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.request-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: #195557;
+  margin-bottom: 1.5625rem;
+}
+
+.request-count-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.request-count-title__img {
+  margin-right: 10px;
+}
+
+.request-count__text {
+  margin-right: 5px;
+}
+
+.request-count__number {
+  text-decoration: underline;
+}
+
+.request-action {
+  text-align: center;
+  line-height: 1.375rem;
+  font-family: 'Raleway', sans-serif;
+  color: #195557;
+}
+
+.footer {
+  background: #70908B;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.footer__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.footer__logo {
+  margin-right: 610px;
+}
+
+.footer__nav {
+  margin-right: 100px;
+}
+
+.footer__nav--item {
+  margin-right: 65px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer__nav--item:last-child {
+  margin-right: 0;
+}
+
+.footer__img {
+  margin-right: 13px;
+}
+
+.footer__lastimg {
+  margin-right: 70px;
+}
+
+.footer__number {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #FFF;
+}
+
+.footer__span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 131.4%;
+  color: #FFF;
+}
+
+.footer__secondBlock {
+  margin-left: 85px;
+}

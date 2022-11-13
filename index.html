@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedgehog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__block">
+            <a href="#" class="header__logo"><img src="img/Logo.svg" alt="logo" class="header__logo--img"></a>
+            <nav class="header__nav">
+                <a href="#" class="header__nav--item first__item">КАТАЛОГ</a>
+                <a href="#" class="header__nav--item">О НАС</a>
+                <a href="#" class="header__nav--item">КОНТАКТЫ</a>
+                <a href="#" class="header__nav--item">ГАЛЕРЕЯ</a>
+            </nav>
+            <img src="img/phone.svg" alt="phone" class="header__phone--img">
+            <span class="header__phone">+7 (965) 569-89-98</span>
+            <a href="#" class="header__basket"><img src="img/basket.svg" alt="#" class="header__basket--img"></a>
+        </div>
+    </header>
+    <section class="hero section">
+        <div class="hero__block">
+            <img src="img/heroTitle.svg" alt="title" class="hero__title">
+            <p class="hero__text">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель.</p>
+            <a href="#" class="hero__button">Купить ёжика</a>
+        </div>
+        <div class="hero__secondBlock">
+                <div class="hero__items">
+                    <div class="hero__item hero__item1">
+                        <img src="img/ezhik__item.png" alt="img"        class="ezhik__item">
+                        <h3 class="hero__item--title">разведение   ежиков</h3>
+                        <p class="hero__item--text">Собственная    ферма, уход и содержание</p>
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/ezhik__item2.png" alt="img"        class="ezhik__item">
+                        <h3 class="hero__item--title">здоровье</h3>
+                        <p class="hero__item--text">Всегда прививаем и вовремя обследуем ваших будущих питомцев</p>
+                    </div>
+                    <div class="hero__item hero__item1">
+                        <img src="img/ezhik__item3.png" alt="img"        class="ezhik__item">
+                        <h3 class="hero__item--title">любовь и забота</h3>
+                        <p class="hero__item--text">Каждому ежику мы дарим много внимания</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="cards__block">
+            <div class="card">
+                <span class="card__sale">-50%</span>
+                <img src="img/i.svg" alt="img" class="card__icon">
+                <div class="card__info">
+                    <div class="card__info--text">
+                        <h2 class="card__title">Ежик "Евгений"</h2>
+                        <p class="card__text">Очень любит сладости. Маленький сладкоежка=) Мы называем его так  между собой. Ручной, любит внимаение </p>
+                        <div class="card__price">
+                            <span class="price__old">3 000 ₽</span>
+                            <span class="price__new">1 500 ₽</span>
+                        </div>
+                    </div>
+                    <img src="img/ez1.png" alt="img" class="card__img">
+                </div>
+                <img src="img/plus.svg" alt="img" class="card__plus">
+            </div>
+            <div class="card bg2">
+                <span class="card__sale">-50%</span>
+                <img src="img/i.svg" alt="img" class="card__icon2">
+                <div class="card__info">
+                    <div class="card__info--text">
+                        <h2 class="card__title">Ежик “Максим”</h2>
+                        <p class="card__text">Немного игривый и задорный характер этого друга никого не оставит равнодушным!</p>
+                        <div class="card__price">
+                            <span class="price__old">5 000 ₽</span>
+                            <span class="price__new">2 500 ₽</span>
+                        </div>
+                    </div>
+                    <img src="img/ez1.png" alt="img" class="card__img">
+                </div>
+                <img src="img/plus.svg" alt="img" class="card__plus2">
+            </div>
+        </div>
+    </section>
+    <section class="request">
+        <div class="container">
+            <form action="#" class="form">
+                <h2 class="form__title">Заполните заявку и мы забронируем для Вас нового друга</h2>
+                <div class="form-top">
+                    <div class="form-top-buttons">
+                        <button class="button form-top-buttons__item">хочу ёжика для себя</button>
+                        <button class="button form-top-buttons__item">хочу ёжика для детей</button>
+                        <button class="button form-top-buttons__item">хочу ёжика для разведения</button>
+                    </div>
+                    <div class="form-top-radios">
+                        <div class="form-radios-group">
+                            <input type="radio" id="1_2Hedges" class="form-radios-group__input" name="countOfHedges" value="1-2">
+                            <label for="1_2Hedges" class="form-radios-group__label">Мне нужен 1-2 ёжика</label>
+                        </div>
+                        <div class="form-radios-group">
+                            <input type="radio" id="3Hedges" class="form-radios-group__input" name="countOfHedges" value="3">
+                            <label for="3Hedges" class="form-radios-group__label">Мне нужны 3 и более ёжиков</label>
+                        </div>
+                        <div class="form-radios-group">
+                            <input type="radio" id="3_4Hedges" class="form-radios-group__input" name="countOfHedges" value="3-4">
+                            <label for="3_4Hedges" class="form-radios-group__label">Мне нужны 3-4 ёжика</label>
+                        </div>
+                        <div class="form-radios-group">
+                            <input type="radio" id="thinking" class="form-radios-group__input" name="countOfHedges" value="think">
+                            <label for="thinking" class="form-radios-group__label">Пока присматриваюсь</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-bottom">
+                    <div class="form-bottom-group">
+                        <input type="text" class="input form-bottom__input" placeholder="Ваше имя">
+                        <input type="tel" class="input form-bottom__input" placeholder="Ваш телефон">
+                        <input type="email" class="input form-bottom__input" placeholder="Ваш e-mail">
+                    </div>
+                    <textarea name="comment" cols="30" rows="10" class="input form-bottom__textarea" placeholder="Комментарий к заявке"></textarea>
+                </div>
+                <div class="form-button-content">
+                    <button type="submit" class="button button--primary form__button">Купить ёжика</button>
+                </div>
+            </form>
+            <div class="request-count">
+                <div class="request-count-title">
+                    <img src="img/miniEZH.svg" alt="Ёжик" class="request-count-title__img">
+                    <p class="request-count__text">У наc осталось еще:</p>
+                </div>
+                <strong class="request-count__number">25 ёжиков</strong>
+            </div>
+            <p class="request-action">Торопитесь! Акция <br> действует до 26. 02. 2023</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__block">
+            <img src="img/footerLogo.svg" alt="logo" class="footer__logo">
+            <nav class="footer__nav">
+                <a href="#" class="footer__nav--item">КАТАЛОГ</a>
+                <a href="#" class="footer__nav--item">О НАС</a>
+                <a href="#" class="footer__nav--item">КОНТАКТЫ</a>
+                <a href="#" class="footer__nav--item">ГАЛЕРЕЯ</a>
+            </nav>
+            <img src="img/inst.svg" alt="#" class="footer__img">
+            <img src="img/facebook.svg" alt="#" class="footer__img">
+            <img src="img/twiter.svg" alt="#" class="footer__lastimg">
+            <span class="footer__number">+7 (965) 569-89-98</span>
+        </div>
+        <div class="footer__secondBlock">
+        <span class="footer__span">Все права защищены.<br>
+            Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</span>
+        </div>
+    </footer>
+</body>
+</html>
